@@ -1,0 +1,320 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    color: #222;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h3 {
+    font-size: 300%;
+/*    text-shadow: 1px 1px 5px #fff;*/
+}
+
+.highlight {
+/*    color: deeppink;*/
+    color: mediumpurple;
+/*    text-shadow: 1px 1px 5px deeppink;*/
+}
+
+.btn-primary {
+    background-color: #6648b1!important;
+}
+
+.btn-primary:hover {
+    background-color: #563d7c!important;
+    border-color: #563d7c!important;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.section-heading {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.section-heading hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1.5rem;
+}
+
+.img-about {
+    border-radius: 50%;
+    max-width: 80%;
+    margin-bottom: 15px;
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+.skills {
+    color: white;
+    width: 100%;
+    background-color: #eee;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.skill-set {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.skill-tag {
+/*    background-color: deeppink;*/
+    background-color: purple;
+    width: 25%;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-fill {
+/*    background-color: hotpink;*/
+    background-color: mediumpurple;
+}
+
+.c-programming {
+    width: 60%;
+}
+
+.cpp {
+    width: 55%;
+}
+
+.java {
+    width: 50%;
+}
+
+.html {
+    width: 50%;
+}
+
+.css {
+    width: 40%;
+}
+
+.bootstrap {
+    width: 40%;
+}
+
+.javascript {
+    width: 60%;
+}
+
+.dart {
+    width: 45%;
+}
+
+.nodejs {
+    width: 45%;
+}
+
+.react-native {
+    width: 55%;
+}
+
+.flutter {
+    width: 60%;
+}
+
+.ruby-on-rails {
+    width: 30%;
+}
+
+.unity3d {
+    width: 55%;
+}
+
+.c-sharp {
+    width: 60%;
+}
+
+.card-container {
+    padding: 20px;
+}
+
+.card-subtitle {
+    color: #535353;
+    margin-top: -0.5rem;
+    margin-bottom: .75rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .btn {
+    margin-top: auto;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.social a {
+    font-size: 3.5em;
+    padding: 3rem;
+}
+
+.social a i:hover {
+    color: #b3b3b3;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-linkedin {
+    color: #0077B5
+}
+
+.fa-medium {
+    color: #000;
+}
+
+.fa-wordpress {
+    color: #21759b;
+}
+
+.fa-blogger {
+    color: #fb8f3d;
+}
+
+.fa-github {
+    color: #333;
+}
+
+.fa-stack-overflow {
+    color: #222426;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+.game-img {
+    max-width: 100%;
+}
+
+.game-img-container {
+    position: inherit;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.game-info-container {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.game-info {
+    text-align: justify;
+}
+
+/*--------Media Queries--------*/
+
+@media (max-width: 992px) {
+    .lead {
+        font-size: 1em;
+    }
+    .social a {
+        font-size: 3em;
+        padding: 2rem;
+    }
+/*
+    .card-body .btn {
+        padding: 10px 14px;
+    }
+*/
+    .skill-tag {
+        font-size: 75%;
+    }
+    .game-info {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .lead {
+        font-size: 1em;
+    }
+    .carousel-caption {
+        top: 45%;
+    }
+    .carousel-caption h3 {
+        font-size: 140%;
+    }
+    .carousel-caption .btn {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+    .skill-tag {
+        font-size: 55%;
+    }
+    .display-4 {
+        font-size: 200%;
+    }
+    .social a {
+        font-size: 2em;
+        padding: 1.2rem;
+    }
+/*
+    .card-body .btn {
+        padding: 4px 6px;
+    }
+*/
+    .game-info {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .lead {
+        font-size: 1em;
+    }
+    .carousel-caption {
+        top: 40%;
+    }
+    .carousel-caption h3 {
+        font-size: 110%;
+    }
+    .carousel-caption .btn {
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    .display-4 {
+        font-size: 160%;
+    }
+    .social a {
+        font-size: 2em;
+        padding: .7em;
+    }
+}
